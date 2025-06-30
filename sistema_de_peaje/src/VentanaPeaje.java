@@ -18,7 +18,7 @@ public class VentanaPeaje extends JFrame {
         FondoPanel fondo = new FondoPanel("/peaje.jpg"); // ← Usa "/" si está en carpeta resources o misma ruta
         fondo.setLayout(new FlowLayout());
 
-        // Inicialización de casetas
+        
         casetas = new Peaje[] {
                 new Peaje("Peaje A"), new Peaje("Peaje B"),
                 new Peaje("Peaje C"), new Peaje("Peaje D")
